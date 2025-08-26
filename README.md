@@ -147,9 +147,6 @@ The frontend communicates with a backend API server running on `http://localhost
 - Protected routes based on user roles
 - Secure localStorage for session persistence
 
-
-
-
 ## 🔧 Configuration
 
 ### Environment Setup
