@@ -2,6 +2,8 @@
 
 A modern, responsive web application for managing hospital operations built with React and Vite. This system provides comprehensive healthcare management solutions for administrators, doctors, and patients.
 
+**For Sample UI (as the backend it not running)** [Live](https://tejasnachane.github.io/HMS-FrontEnd/)
+
 ## 🔗 Related Repositories
 
 - **Backend API**: [Hospital Management System Backend](https://github.com/TejasNachane/Hospital-Management-System)
