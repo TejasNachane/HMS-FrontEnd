@@ -145,9 +145,9 @@ const AppointmentDetails = () => {
                   <div className="d-flex align-items-center">
                     <i className="bi bi-person-circle text-primary me-2"></i>
                     <div>
-                      <strong>{appointment.patient?.name || 'N/A'}</strong>
+                      <strong>{appointment?.patient?.name || 'N/A'}</strong>
                       <br />
-                      <small className="text-muted">{appointment.patient?.email}</small>
+                      <small className="text-muted">{appointment?.patient?.email}</small>
                     </div>
                   </div>
                 </Col>
@@ -156,9 +156,9 @@ const AppointmentDetails = () => {
                   <div className="d-flex align-items-center">
                     <i className="bi bi-person-badge text-success me-2"></i>
                     <div>
-                      <strong>Dr. {appointment.doctor?.name || 'N/A'}</strong>
+                      <strong>Dr. {appointment?.doctor?.name || 'N/A'}</strong>
                       <br />
-                      <small className="text-muted">{appointment.doctor?.specialization?.replace(/_/g, ' ')}</small>
+                      <small className="text-muted">{appointment?.doctor?.specialization?.replace(/_/g, ' ')}</small>
                     </div>
                   </div>
                 </Col>
